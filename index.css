@@ -1,0 +1,61 @@
+/* Reset default margins/paddings and set primary font */
+body, h1, h2, ul {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #F5F5F5; /* Light background color for the navbar */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  color: #023e8a; /* Darker blue text color for the navbar header */
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  color: #023e8a; /* Darker blue links */
+  text-decoration: none;
+}
+
+.login-button {
+  background-color: #48cae4; /* Primary blue for login button */
+  color: #FFFFFF;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.login-button:hover {
+  background-color: #023e8a; /* Darker blue on hover */
+}
+
+/* Main content styles */
+.main {
+  padding: 20px;
+}
+
+.homepage {
+  background-color: #FFFFFF; /* White background for homepage section */
+  padding: 40px;
+  text-align: center;
+}
+
+/* Additional styles */
+h2 {
+  color: #023e8a; /* Darker blue for headings */
+}
